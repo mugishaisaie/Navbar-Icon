@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>icon bar</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>click on the menu icon to transform "X"</p>
+    <div class="container" onclick="myIcon(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <script>
+        function myIcon(x){
+            x.classList.toggle("change")
+        }
+    </script>
+</body>
+</html>
